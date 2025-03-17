@@ -40,7 +40,9 @@ public class Ex03_Min {
 		}
 //		4.
 //		int min = 0;
-		int min = Integer.MIN_VALUE;
+//		int min = Integer.MIN_VALUE;
+//		Integer.MAX_VALUE : 21억xxx :int 의 최댓값
+		int min = Integer.MAX_VALUE;
 		
 		for (int i = 0; i < arr.length; i++) {
 			if( min > arr[i]) {			
