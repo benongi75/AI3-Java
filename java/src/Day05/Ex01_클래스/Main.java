@@ -13,6 +13,8 @@ public class Main {
 		System.out.println("나이 :" + person.age);
 		person.eat("보끔당");
 		person.work("코딩", 12);
+		
+		
 	}
 
 }
