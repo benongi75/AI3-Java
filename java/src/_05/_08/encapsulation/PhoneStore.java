@@ -20,6 +20,16 @@ public class PhoneStore {
 		else return null;
 
 	}
+	private void saveData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void discountPromotion() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	private void registerPayment() {
 		System.out.println("대리점: 요금제를 등록합니다. 약정을 등록합니다.");
 	}

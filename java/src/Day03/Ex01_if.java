@@ -28,7 +28,7 @@ public class Ex01_if {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수입력 : ");
 		int num = sc.nextInt();
-		if( num & 2 == 1 )
+		if( (num & 2) == 1 )
 			System.out.println("홍수");
 		else
 			System.out.println("짝수");
