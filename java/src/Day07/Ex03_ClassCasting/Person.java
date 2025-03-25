@@ -38,6 +38,16 @@ public class Person {
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + "]";
 	}
+
+	public Student getObject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setObject(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	

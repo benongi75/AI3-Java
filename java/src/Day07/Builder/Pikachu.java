@@ -12,7 +12,7 @@ public class Pikachu {
 	private int level;
 	
 //	private 생성자
-	private Pikachu(Builder builder) {
+	public Pikachu(Builder builder) {
 		this.energy = builder.energy;
 		this.type = builder.type;
 		this.level = builder.level;
