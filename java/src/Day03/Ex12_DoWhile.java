@@ -8,7 +8,6 @@ public class Ex12_DoWhile {
 		Scanner sc = new Scanner (System.in);
 //		메뉴판
 //		* 변수 선언 : 메뉴번호, 메뉴이름
-		int a = 1;
 		int count = 0;         // 메뉴개수
 		int menuNo = 0;        // 메뉴번호
 		String menuName = "";  // 메뉴이름
