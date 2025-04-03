@@ -32,10 +32,10 @@ public class Main extends Application {
 		stage.getIcons().add(icon);
 		
 		// 윈도우 크기 지정 - px 단위
-//		stage.setWidth(600);
-//		stage.setHeight(400);
+		stage.setWidth(600);
+		stage.setHeight(400);
 		// * 화면 정가운데 위치 지정
-		stage.centerOnScreen();
+		//stage.centerOnScreen();
 		
 		// 크기 조절 활성화 설정
 		stage.setResizable(false);   // 크기 조절 비활성화
@@ -59,6 +59,4 @@ public class Main extends Application {
 		
 	}
 	
-
-
 }
